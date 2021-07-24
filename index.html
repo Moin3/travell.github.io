@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AOS-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+        <!--====== FONT AWESOME =======-->
+    <script src="https://kit.fontawesome.com/d2484c7c4f.js" crossorigin="anonymous"></script>
+    <!--====== SWIPER CSS =======-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+
+    <title></title>
+  </head>
+  <body>
+     <!------===== Header Section ======---->
+     
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Travel</a>
+        
+        <div id="nav-menu" class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Discover</a>
+            </li>
+            <li class="nav__item">
+              <a href="#place" class="nav__link">Place</a>
+            </li>
+          </ul>
+          
+           <div class="nav__dark">
+            <!-- Theme change button-->
+            <span class="change-theme-name">Dark Mode</span>
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+           </div>
+           
+           <i class="uil uil-times nav__close" id="nav-close"></i>
+          
+        </div>
+         <div class="nav__toggle" id="nav-toggle">
+             <i class="uil uil-apps"></i>
+         </div>
+      </nav>
+    </header>
+    
+    <!------===== Main Section ======---->
+    <main class="main">
+      <!--====== HOME =======-->
+      <section class="home" id="home">
+        <img class="home__img" src="img/home1.jpg" alt="" />
+        
+        <div class="home__container container grid" data-aos-delay="500">
+          <div class="home__data" data-aos="fade-up">
+            <span class="home__data-subtitle">Discover Your Place</span>
+            <h1 class="home__data-title">
+              Explore The <br> Best <b> Beautiful <br>  Beches</b>
+            </h1>
+            <a class="button explore" href="#">Explore</a>
+          </div>
+          
+          <div class="home__social" data-aos="fade-up">
+            <a class="home__social-link" target="_blank" href="https://www.facebook.com/">
+              <i class="uil uil-facebook"></i>
+            </a>
+            
+            <a class="home__social-link" target="_blank" href="https://www.instagram.com/">
+              <i class="uil uil-instagram"></i>
+            </a>
+            
+            <a class="home__social-link" target="_blank" href="https://www.twitter.com/">
+              <i class="uil uil-twitter"></i>
+            </a>
+          </div>
+          
+          <div class="home__info" data-aos="fade-right">
+            <div>
+              <span class="home__info-title">5 Best place to visit</span>
+              <a class="button button--link button--flex home__info-button" href="#">
+                More<i class="uil uil-arrow-right"></i>
+              </a>
+            </div>
+            <div class="home__info-overlay">
+              <img class="home__info-img" src="img/home2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--====== about =======-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">More Information <br> About The Beaches</h2>
+            <p class="about__description">
+              You can find the most beautiful and pleasent places at best prices with special discounts,you choose the place we will guide you all the way to wait,Get your place now. 
+            </p>
+            <a class="button" href="#">Reserve a place</a>
+          </div>
+          <div class="about__img">
+            <div class="about__img-overlay" data-aos="fade-right">
+              <img class="about__img-one" src="img/about1.jpg" alt="" />
+            </div>
+            <div class="about__img-overlay" data-aos="fade-left">
+              <img class="about__img-two" src="img/about2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--====== Discover =======-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Discover The most <br /> attractive place</h2>
+        
+        <div class="swiper-container discover__container container" data-aos="zoom-in">
+          <div class="swiper-wrapper">
+            <!--====== Discover 1 =======-->
+            <div class="discover__card swiper-slide">
+              <img class="discover__img" src="img/discover1.jpg" alt="" />
+              <div class="discover__data">
+                <h2 class="discover__title">Bail</h2>
+                <span class="discover__description">24 tours available</span>
+              </div>
+            </div>
+            
+             <!--====== Discover 2 =======-->
+            <div class="discover__card swiper-slide">
+              <img class="discover__img" src="img/discover2.jpg" alt="" />
+              <div class="discover__data">
+                <h2 class="discover__title">Hawaii</h2>
+                <span class="discover__description">15 tours available</span>
+              </div>
+            </div>
+            
+             <!--====== Discover 3 =======-->
+            <div class="discover__card swiper-slide">
+              <img class="discover__img" src="img/discover3.jpg" alt="" />
+              <div class="discover__data">
+                <h2 class="discover__title">Hvar</h2>
+                <span class="discover__description">2 tours available</span>
+              </div>
+            </div>
+            
+             <!--====== Discover 4 =======-->
+            <div class="discover__card swiper-slide">
+              <img class="discover__img" src="img/discover4.jpg" alt="" />
+              <div class="discover__data">
+                <h2 class="discover__title">whitehaven</h2>
+                <span class="discover__description">18 tours available</span>
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
+      
+      <!--====== EXPRIENCE"======-->
+        <section class="exprience section">
+        <h2 class="section__title">With our Exprience <br> We will serve you</h2>
+        
+        <div class="exprience__container container grid">
+          <div class="exprience__content grid">
+            
+            <div class="exprience__data">
+              <h2 class="exprience__number">20</h2>
+              <span class="exprience__description">Year <br>Exprience</span>
+            </div>
+            <div class="exprience__data">
+              <h2 class="exprience__number">75</h2>
+              <span class="exprience__description">Complete <br>Tours</span>
+            </div>
+            <div class="exprience__data">
+              <h2 class="exprience__number">650</h2>
+              <span class="exprience__description">Tourist <br>Destination</span>
+            </div>
+          </div>
+          <div class="exprience__img grid">
+            <div class="exprience__overlay" data-aos="fade-right">
+              <img class="exprience__img-one" src="img/experience1.jpg" alt="" />
+            </div>
+            
+            <div class="exprience__overlay" data-aos="fade-up">
+              <img class="exprience__img-two" src="img/experience2.jpg" alt="" />
+            </div>
+          </div>
+          
+        </div>
+        </section>
+      
+      <!--====== VIDEO =======-->
+       <section class="video section">
+          <h2 class="section__title">Video Tour</h2>
+          
+          <div class="video__container container">
+            <p class="video__description" data-aos="fade-left">
+              Find out more with our video of the most brautiful and pleasent places for you and your family
+            </p>
+            <div class="video__content" data-aos="fade-right">
+              <video id="video-file">
+                <source src="vid/video.mp4"/>
+              </video>
+              
+              <button class="video__button button__flex button"  id="video-button">
+                <i class="uil uil-play video__button-icon" id="video-icon"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+      
+      <!--====== PLACES =======-->
+      <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+
+                <div class="place__container container grid" data-aos="zoom-in-up">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="uil uil-star place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Bali</h3>
+                                <span class="place__subtitle">Indonesia</span>
+                                <span class="place__price">$2499</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+         <!--=======place Card 2========-->
+                  <div class="place__card">
+                        <img src="img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="uil uil-star place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Bora Bora</h3>
+                                <span class="place__subtitle">Polinesia</span>
+                                <span class="place__price">$1599</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+         <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="uil uil-star place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Hawaii</h3>
+                                <span class="place__subtitle">EE.UU</span>
+                                <span class="place__price">$3499</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+          
+         <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="img/place4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                               <i class="uil uil-star place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Whitehaven</h3>
+                                <span class="place__subtitle">Australia</span>
+                                <span class="place__price">$2499</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+         
+        <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="uil uil-star place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Hvar</h3>
+                                <span class="place__subtitle">Croacia</span>
+                                <span class="place__price">$1999</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="uil uil-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+      
+      <!--====== SUSCRIBE =======-->
+      <section class="suscribe section">
+        <div class="suscribe__bg">
+          <div class="suscribe__container container">
+            <h2 class="section__title suscribe__title">
+              Suscribe our <br> Newsletter
+            </h2>
+            <p class="suscribe__description" data-aos="slide-right">
+              Suscribe to our news letter and get extra 36% discount
+            </p>
+            <form class="suscribe__form" data-aos="slide-left">
+              <input type="email" placeholder="Enter Your Email" class="suscribe__input" />
+              <button class="button">
+                Suscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <!--====== SPONSOR =======-->
+      <section class="sponsor section">
+        <div class="sponsor__container container grid" data-aos="zoom-out">
+          <div class="sponsor__content">
+            <img class="sponsor__img" src="img/sponsors1.png" alt="" />
+          </div>
+          <div class="sponsor__content">
+            <img class="sponsor__img" src="img/sponsors2.png" alt="" />
+          </div>
+          <div class="sponsor__content">
+            <img class="sponsor__img" src="img/sponsors3.png" alt="" />
+          </div>
+          <div class="sponsor__content">
+            <img class="sponsor__img" src="img/sponsors4.png" alt="" />
+          </div>
+          <div class="sponsor__content">
+            <img class="sponsor__img" src="img/sponsors5.png" alt="" />
+          </div>
+        </div>
+      </section>
+      
+      
+    </main>
+    
+    <!------===== FOOTER ======---->
+     <footer class="footer section">
+       <div class="footer__container container grid">
+         <div class="footer__content grid">
+           
+           <div class="footer__data" data-aos="fade-up">
+               <h3 class="footer__title">Travel</h3>
+               <p class="footer__description">
+                 Travell you choose the <br> destination, we offer you the <br> exprience.
+               </p>
+               <div>
+                 <a class="footer__social" target="_blanck" href="https://www.facebook.com/">
+                   <i class="uil uil-facebook"></i>
+                 </a>
+                 <a class="footer__social" target="_blanck" href="https://www.twitter.com/">
+                   <i class="uil uil-twitter"></i>
+                 </a>
+                 <a class="footer__social" target="_blanck" href="https://www.instagram.com/">
+                   <i class="uil uil-instagram-alt"></i>
+                 </a>
+                 <a class="footer__social" target="_blanck" href="https://www.youtube.com/">
+                   <i class="uil uil-youtube"></i>
+                 </a>
+               </div>
+           </div>
+           
+           <div class="footer__data" data-aos="fade-up">
+             <h3 class="footer__subtitle">About</h3>
+             
+             <ul>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">About Us</a>
+               </li>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">Features</a>
+               </li>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">News and blog</a>
+               </li>
+             </ul>
+           </div>
+           
+           
+           <div class="footer__data" data-aos="fade-up">
+             <h3 class="footer__subtitle">Company</h3>
+             
+             <ul>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">Team</a>
+               </li>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">Plan y pricing</a>
+               </li>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">Become a member</a>
+               </li>
+             </ul>
+           </div>
+           
+           
+           <div class="footer__data" data-aos="fade-up">
+             <h3 class="footer__subtitle">Support</h3>
+             
+             <ul>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">FAQs</a>
+               </li>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">support center</a>
+               </li>
+               <li class="footer__item">
+                 <a class="footer__link" href="#">Contact Us</a>
+               </li>
+             </ul>
+           </div>
+           
+         </div>
+         <div class="footer__rights">
+           <p class="footer__copy" aos-data="slide-right">&copy; Bedimcode & Moin.All right reserved</p>
+           <div class="footer__terms" aos-data="slide-left">
+             <a class="footer__terms-link" href="#">Terms and Agreements</a>
+             <a class="footer__terms-link" href="#">Privacy Policy</a>
+           </div>
+         </div>
+       </div>
+     </footer>
+    
+     <!------===== AOS Js ======---->
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+     <!------===== SCROLL Up Section ======---->
+     <a class="scrollup" id="scroll-up" href="#">
+       <i class="uil uil-arrow-up scrollup-icon"></i>
+     </a>
+     
+     <!------===== SWIPER JS ======---->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <!------===== MAIN JS ======---->
+     <script src="js/main.js"></script>
+  </body>
+</html>
